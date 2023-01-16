@@ -25,17 +25,18 @@
 	width: 100%;
 	height: 650px;
 	background-color: blue;
+	justify-content: center;
 }
 
-
+.chloe-smart {
+	font-size: 100px;
+}
 
 .about-me-section {
 	display: flex;
 	width: 100%;
 	height: 400px;
-	flex-wrap: wrap;
 	background-color: aqua;
-	align-content: space-around;
 	justify-content: center;
 	padding: 20px;
 }
@@ -43,10 +44,8 @@
 .project-section {
 	display: flex;
 	width: 100%;
-	height: 650px;
+	height: 760px;
 	background-color: orange;
-	padding: 100px;
-	justify-content: space-between;
 	flex-direction: column;
 }
 
@@ -55,14 +54,51 @@
 	justify-content: flex-end;
 	width: 300px;
 	height: 300px;
-	position: absolute;
-	right: 0px;
 }
 
-.projects {
-	display: flex;
+.project-1-box {
 	border-style: dotted;
-	padding: 20px;
+	padding: 10px;
+	width: 300px;
+	height: 200px;
+}
+
+.project-2-box {
+	border-style: dotted;
+	padding: 10px;
+	width: 300px;
+	height: 200px;
+}
+
+.project-3-box {
+	border-style: dotted;
+	padding: 10px;
+	width: 300px;
+	height: 200px;
+}
+
+.project-1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding: 10px;
+	gap: 100px;
+}
+
+.project-2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding: 10px;
+	gap: 100px;
+}
+
+.project-3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding: 10px;
+	gap: 100px;
 }
 
 .contact-bar {
@@ -81,4 +117,6 @@
 
 }
 
-
+.project-description-1 {
+	display: flex;
+}
