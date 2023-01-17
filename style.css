@@ -8,7 +8,7 @@
 	height: 50px;
 	gap: 50px;
 	padding: 15px;
-	background-color: #786a62;
+	background-color: #9a7b5c;
 }
 
 .home-link {
@@ -140,6 +140,14 @@
 
 .spots {
 	display: flex;
-	width: 1000px;
+	width: 100%;
 	object-fit: cover;
+	background-color: #dac7b2;
+}
+
+.chloe-smart {
+	  position: absolute;
+	  top: 10%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
 }
