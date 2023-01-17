@@ -100,6 +100,7 @@ main {
 	justify-content: flex-start;
 	padding: 10px;
 	gap: 100px;
+	align-items: center;
 }
 
 .project-2 {
@@ -108,6 +109,7 @@ main {
 	justify-content: flex-start;
 	padding: 10px;
 	gap: 100px;
+	align-items: center;
 }
 
 
@@ -117,6 +119,19 @@ main {
 	justify-content: flex-start;
 	padding: 10px;
 	gap: 100px;
+	align-items: center;
+}
+
+.project-1-title {
+	padding: 30px;
+}
+
+.project-2-title {
+	padding: 30px;
+}
+
+.project-3-title {
+	padding: 30px;
 }
 
 
@@ -179,7 +194,7 @@ main {
 		flex-direction: column;
 	}
 	
-	.project-1 {
+	.project-3  {
 		flex-direction: column;
 	}
 	
