@@ -1,0 +1,205 @@
+* {
+	box-sizing: border-box;
+}
+
+main {
+	width: 100%;
+	max-width: 5000px;
+	box-sizing: border-box; 
+	margin: 20x auto; 
+	height: 1000px;
+}
+
+.navbar {
+	display: flex;
+	width: 100%;
+	justify-content: flex-start;
+	gap: 50px;
+	padding: 15px;
+	background-color: #9a7b5c;
+}
+
+.chloe-smart {
+	  position: absolute;
+	  top: 10%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  font-size: 100px;
+}
+
+.about {
+	text-decoration: none;
+	color: #dac7b2;
+}
+
+.portfolio {
+	text-decoration: none;
+	color: #dac7b2;
+}
+
+.contact {
+	text-decoration: none;
+	color: #dac7b2;
+}
+
+.home-body {
+	display: flex;
+	width: 100%;
+	height: 650px;
+	justify-content: center;
+}
+
+.text {
+	padding-top: 15px;
+}
+
+.about-me-section {
+	display: flex;
+	width: 100%;
+	background-color: #9a7b5c;
+	justify-content: center;
+	padding: 20px;
+	gap: 20px;
+	line-height: 40px;
+}
+
+.me {
+	display: flex;
+	justify-content: flex-end;
+	width: 300px;
+	height: 300px;
+}
+
+.project-section {
+	display: flex;
+	width: 100%;
+	background-color: #cf9697;
+	flex-direction: column;
+	padding-left: 40px;
+	padding-top: 30px;
+}
+
+.project-1-box-color {
+	width: 400px;
+	height: 230px;
+}
+
+.project-2-box-color {
+	width: 400px;
+	height: 230px;
+}
+
+.project-3-box-color {
+	width: 400px;
+	height: 230px;
+}
+
+.project-1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding: 10px;
+	gap: 100px;
+	align-items: center;
+}
+
+.project-2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding: 10px;
+	gap: 100px;
+	align-items: center;
+}
+
+
+.project-3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding: 10px;
+	gap: 100px;
+	align-items: center;
+}
+
+.project-1-title {
+	padding: 30px;
+}
+
+.project-2-title {
+	padding: 30px;
+}
+
+.project-3-title {
+	padding: 30px;
+}
+
+
+.contact-bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding: 10px;
+	background-color: #dac7b2;
+	gap: 20px;
+}
+
+.logo {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+
+}
+
+.spots {
+	display: flex;
+	width: 100%;
+	object-fit: cover;
+	background-color: #dac7b2;
+}
+
+
+@media screen and (max-width: 800px) {
+	
+	.me {
+		display: none;
+	}
+	
+	.contact-heading {
+		display: none;
+	}
+	
+	.about-me-section {
+		height: 440px;
+	}
+	
+	.chloe-smart {
+  	  position: absolute;
+  	  top: 20%;
+  	  left: 50%;
+  	  transform: translate(-50%, -50%);
+  	  
+	}
+	
+	.about-me-section {
+		justify-content: space-between;
+		gap: 10px;
+	}
+	
+	.project-1 {
+		flex-direction: column;
+	}
+	
+	.project-2 {
+		flex-direction: column;
+	}
+	
+	.project-3  {
+		flex-direction: column;
+	}
+	
+	.navbar {
+		justify-content: space-between;
+	}
+	
+}
