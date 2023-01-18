@@ -7,7 +7,6 @@ main {
 	max-width: 5000px;
 	box-sizing: border-box; 
 	margin: 20x auto; 
-	height: 1000px;
 }
 
 .navbar {
@@ -16,15 +15,41 @@ main {
 	justify-content: flex-start;
 	gap: 50px;
 	padding: 15px;
+	padding-left: 45px;
 	background-color: #9a7b5c;
+	font-family: 'Roboto Flex', sans-serif;
+	font-size: 20px;
+	letter-spacing: 3px;
+	
 }
 
 .chloe-smart {
 	  position: absolute;
-	  top: 10%;
+	  top: 15%;
 	  left: 50%;
 	  transform: translate(-50%, -50%);
-	  font-size: 100px;
+	  font-size: 120px;
+	  letter-spacing: 30px;
+	  font-family: lust-stencil,serif;
+	  font-weight: 700;
+	  text-align: center;
+	  white-space: nowrap;
+	  overflow: hidden;
+	  text-overflow: clip;
+}
+
+.software-developer {
+ 	position: absolute;
+  	top: 32%;
+  	left: 50.5%;
+  	transform: translate(-50%, -50%);
+	font-family: 'Roboto Flex', sans-serif;
+	letter-spacing: 48px;
+	font-size: 40px;
+  	text-align: center;
+  	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: clip;
 }
 
 .about {
@@ -32,6 +57,19 @@ main {
 	color: #dac7b2;
 }
 
+.about-me {
+	font-family: 'Roboto Flex', sans-serif;
+	font-size: 20px;
+	letter-spacing: 3px;
+	
+}
+
+.about-me-title {
+	font-weight: 700;
+	font-size: 50px;
+	font-family: lust-stencil,serif;
+	letter-spacing: 5px;
+}
 .portfolio {
 	text-decoration: none;
 	color: #dac7b2;
@@ -45,8 +83,8 @@ main {
 .home-body {
 	display: flex;
 	width: 100%;
-	height: 650px;
 	justify-content: center;
+	min-height: 100vh;
 }
 
 .text {
@@ -61,13 +99,27 @@ main {
 	padding: 20px;
 	gap: 20px;
 	line-height: 40px;
+	padding-left: 50px;
+	padding-bottom: 30px;
+	padding-right: 40px;
 }
 
 .me {
 	display: flex;
 	justify-content: flex-end;
-	width: 300px;
-	height: 300px;
+	width: 400px;
+	height: 400px;
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+.portfolio-title {
+	padding-left: 45px;
+	padding-bottom: 10px;
+	font-family: lust-stencil,serif;
+	font-weight: 700;
+	font-size: 50px;
+	letter-spacing: 3px;
 }
 
 .project-section {
@@ -75,22 +127,26 @@ main {
 	width: 100%;
 	background-color: #cf9697;
 	flex-direction: column;
-	padding-left: 40px;
+	padding-left: 10px;
 	padding-top: 30px;
+	padding-bottom: 30px;
+	font-family: 'Roboto Flex', sans-serif;
+	line-height: 40px;
+	letter-spacing: 3px;
 }
 
 .project-1-box-color {
-	width: 400px;
+	width: 350px;
 	height: 230px;
 }
 
 .project-2-box-color {
-	width: 400px;
+	width: 350px;
 	height: 230px;
 }
 
 .project-3-box-color {
-	width: 400px;
+	width: 350px;
 	height: 230px;
 }
 
@@ -99,8 +155,9 @@ main {
 	flex-direction: row;
 	justify-content: flex-start;
 	padding: 10px;
-	gap: 100px;
+	gap: 50px;
 	align-items: center;
+	position: relative;
 }
 
 .project-2 {
@@ -108,8 +165,9 @@ main {
 	flex-direction: row;
 	justify-content: flex-start;
 	padding: 10px;
-	gap: 100px;
+	gap: 50px;
 	align-items: center;
+	position: relative;
 }
 
 
@@ -118,20 +176,47 @@ main {
 	flex-direction: row;
 	justify-content: flex-start;
 	padding: 10px;
-	gap: 100px;
+	gap: 50px;
 	align-items: center;
+	position: relative;
+	
 }
 
 .project-1-title {
 	padding: 30px;
+	font-size: 30px;
+	padding-left: 30px;
+	font-weight: 300;
+	position: absolute;
+	top: 45px;
+	left: 70px
+	
 }
 
 .project-2-title {
 	padding: 30px;
+	font-size: 30px;
+	padding-left: 30px;
+	font-weight: 300;
+	position: absolute;
+	top: 45px;
+	left: 70px
+	
 }
 
 .project-3-title {
 	padding: 30px;
+	font-size: 30px;
+	padding-left: 30px;
+	font-weight: 300;
+	position: absolute;
+	top: 45px;
+	left: 70px;
+}
+
+.project-description {
+	font-size: 20px;
+	max-width: 900px;
 }
 
 
@@ -142,6 +227,15 @@ main {
 	padding: 10px;
 	background-color: #dac7b2;
 	gap: 20px;
+	align-items: center;
+}
+
+.contact-heading {
+	font-family: lust-stencil,serif;
+	font-size: 40px;
+	padding-left: 45px;
+	font-weight: 500;
+	letter-spacing: 3px;
 }
 
 .logo {
@@ -161,16 +255,18 @@ main {
 
 @media screen and (max-width: 800px) {
 	
+	.navbar { 
+		justify-content: space-between;
+		padding-left: 15px;
+	}
+	
+	
 	.me {
 		display: none;
 	}
 	
 	.contact-heading {
 		display: none;
-	}
-	
-	.about-me-section {
-		height: 440px;
 	}
 	
 	.chloe-smart {
@@ -184,6 +280,7 @@ main {
 	.about-me-section {
 		justify-content: space-between;
 		gap: 10px;
+		
 	}
 	
 	.project-1 {
@@ -198,8 +295,114 @@ main {
 		flex-direction: column;
 	}
 	
-	.navbar {
-		justify-content: space-between;
+	.project-description {
+		padding-left: 50px;
+		padding-right: 50px;
+		text-align: center;
 	}
 	
+	.logo {
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 100%;
+	}
+	
+	.project-1-title {
+		position: absolute;
+		top: 45px;
+		left: 270px;
+	
+	}
+	
+	.project-2-title {
+		position: absolute;
+		top: 45px;
+		left: 270px;
+	
+	}
+	
+	.project-3-title {
+		position: absolute;
+		top: 45px;
+		left: 270px;
+	
+	}
+	
+	.chloe-smart {
+		  position: absolute;
+		  top: 20%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  font-size: 65px;
+		  letter-spacing: 3px;
+		  font-family: lust-stencil,serif;
+		  font-weight: 700;
+		  white-space: normal;
+		  overflow: visible;
+		  text-overflow: clip;
+		  
+	}
+
+	.software-developer {
+	 	position: absolute;
+	  	top: 38%;
+	  	left: 51.5%;
+	  	transform: translate(-50%, -50%);
+		font-family: 'Roboto Flex', sans-serif;
+		letter-spacing: 18px;
+		font-size: 20px;
+	 	white-space: normal;
+	  	overflow: visible;
+	  	text-overflow: clip;
+	  	
+	} 
+	
+	.portfolio-title {
+		padding-left: 0px;
+		padding-bottom: 10px;
+		font-family: lust-stencil,serif;
+		font-weight: 700;
+		font-size: 50px;
+		letter-spacing: 3px;
+		text-align: center;
+	}
+	
+	
 }
+
+@media screen and (max-width: 400px) {
+	
+	.chloe-smart {
+		top: 20%;
+		  font-size: 60px;
+		  letter-spacing: 3px;
+		  font-family: lust-stencil,serif;
+		  font-weight: 700;
+	  }
+	  
+  	.software-developer {
+  		font-family: 'Roboto Flex', sans-serif;
+  		letter-spacing: 8px;
+  		font-size: 25px;
+	  	
+  	}
+	
+	.project-1-title {
+		position: absolute;
+		top: 45px;
+		left: 70px;
+	
+	}
+	
+	.project-2-title {
+		position: absolute;
+		top: 45px;
+		left: 70px;
+	
+	}
+	
+	.project-3-title {
+		position: absolute;
+		top: 45px;
+		left: 70px;
+	}
