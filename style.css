@@ -28,7 +28,6 @@ body {
 
 .home-body {
 	display: flex;
-	width: 100%;
 	justify-content: center;
 	min-height: 100vh;
 }
@@ -89,7 +88,6 @@ body {
 
 .about-me-section {
 	display: flex;
-	width: 100%;
 	background-color: #9a7b5c;
 	justify-content: center;
 	padding: 20px;
@@ -119,7 +117,6 @@ body {
 
 .project-section {
 	display: flex;
-	width: 100%;
 	background-color: #cf9697;
 	flex-direction: column;
 	padding-left: 10px;
