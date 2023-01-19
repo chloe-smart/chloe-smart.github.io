@@ -214,12 +214,8 @@ body {
 	.chloe-smart {
 		position: absolute;
 		top: 20%;
-		left: 50%;
-		transform: translate(-50%, -50%);
 		font-size: 65px;
 		letter-spacing: 3px;
-		font-family: lust-stencil,serif;
-		font-weight: 700;
 		white-space: normal;
 		overflow: visible;
 		text-overflow: clip;  
@@ -228,9 +224,6 @@ body {
 	.software-developer {
 	 	position: absolute;
 	  	top: 38%;
-	  	left: 51.5%;
-	  	transform: translate(-50%, -50%);
-		font-family: 'Roboto Flex', sans-serif;
 		letter-spacing: 18px;
 		font-size: 20px;
 	 	white-space: normal;
@@ -278,10 +271,6 @@ body {
 	.portfolio-title {
 		padding-left: 0px;
 		padding-bottom: 10px;
-		font-family: lust-stencil,serif;
-		font-weight: 700;
-		font-size: 50px;
-		letter-spacing: 3px;
 		text-align: center;
 	}
 	
@@ -307,12 +296,9 @@ body {
 		top: 20%;
 		font-size: 60px;
 		letter-spacing: 3px;
-		font-family: lust-stencil,serif;
-		font-weight: 700;
 	  }
 	  
   	.software-developer {
-  		font-family: 'Roboto Flex', sans-serif;
   		letter-spacing: 8px;
   		font-size: 25px;	
   	}
@@ -337,16 +323,42 @@ body {
 		top: 20%;
 		font-size: 50px;
 		letter-spacing: 3px;
-		font-family: lust-stencil,serif;
 		font-weight: 700;
-	  }
-	  
+	  }	
+}
+
+@media screen and (max-width: 350px) {
+	
   	.software-developer {
-  		font-family: 'Roboto Flex', sans-serif;
-  		letter-spacing: 0px;
-  		font-size: 1px;	
+  		letter-spacing: 4px;
+  		font-size: 20px;	
   	}
-		
+	
+	.contact-link {
+		font-size: 15px;
+	}
+	
+	.logo {
+		width: 80px;
+		height: 80px;
+	}  
+	
+	.navbar { 
+		gap: 5px;
+	}
+	
+	.portfolio-title {
+		font-size: 35px;
+	}
+	
+	.about-me-title {
+		font-size: 35px;
+	}
+	
+	.project-box-color {
+		width: 180px;
+		height: 180px;
+	}
 }
 
 	
