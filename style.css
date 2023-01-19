@@ -24,18 +24,18 @@ main {
 }
 
 .chloe-smart {
-	  position: absolute;
-	  top: 15%;
-	  left: 50%;
-	  transform: translate(-50%, -50%);
-	  font-size: 120px;
-	  letter-spacing: 30px;
-	  font-family: lust-stencil,serif;
-	  font-weight: 700;
-	  text-align: center;
-	  white-space: nowrap;
-	  overflow: hidden;
-	  text-overflow: clip;
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 120px;
+	letter-spacing: 30px;
+	font-family: lust-stencil,serif;
+	font-weight: 700;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: clip;
 }
 
 .software-developer {
@@ -179,7 +179,6 @@ main {
 	gap: 50px;
 	align-items: center;
 	position: relative;
-	
 }
 
 .project-1-title {
@@ -189,8 +188,7 @@ main {
 	font-weight: 300;
 	position: absolute;
 	top: 45px;
-	left: 70px
-	
+	left: 70px;
 }
 
 .project-2-title {
@@ -200,8 +198,7 @@ main {
 	font-weight: 300;
 	position: absolute;
 	top: 45px;
-	left: 70px
-	
+	left: 70px;	
 }
 
 .project-3-title {
@@ -242,7 +239,6 @@ main {
 	width: 150px;
 	height: 150px;
 	object-fit: cover;
-
 }
 
 .spots {
@@ -253,7 +249,7 @@ main {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1140px) {
 	
 	.navbar { 
 		justify-content: space-between;
@@ -270,17 +266,15 @@ main {
 	}
 	
 	.chloe-smart {
-  	  position: absolute;
-  	  top: 20%;
-  	  left: 50%;
-  	  transform: translate(-50%, -50%);
-  	  
+		position: absolute;
+		top: 20%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
 	
 	.about-me-section {
 		justify-content: space-between;
-		gap: 10px;
-		
+		gap: 10px;	
 	}
 	
 	.project-1 {
@@ -307,40 +301,40 @@ main {
 		width: 100%;
 	}
 	
+	.contact {
+		justify-content: space-between;
+	}
+	
 	.project-1-title {
 		position: absolute;
 		top: 45px;
 		left: 270px;
-	
 	}
 	
 	.project-2-title {
 		position: absolute;
 		top: 45px;
 		left: 270px;
-	
 	}
 	
 	.project-3-title {
 		position: absolute;
 		top: 45px;
 		left: 270px;
-	
 	}
 	
 	.chloe-smart {
-		  position: absolute;
-		  top: 20%;
-		  left: 50%;
-		  transform: translate(-50%, -50%);
-		  font-size: 65px;
-		  letter-spacing: 3px;
-		  font-family: lust-stencil,serif;
-		  font-weight: 700;
-		  white-space: normal;
-		  overflow: visible;
-		  text-overflow: clip;
-		  
+		position: absolute;
+		top: 20%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 65px;
+		letter-spacing: 3px;
+		font-family: lust-stencil,serif;
+		font-weight: 700;
+		white-space: normal;
+		overflow: visible;
+		text-overflow: clip;  
 	}
 
 	.software-developer {
@@ -353,8 +347,7 @@ main {
 		font-size: 20px;
 	 	white-space: normal;
 	  	overflow: visible;
-	  	text-overflow: clip;
-	  	
+	  	text-overflow: clip;	
 	} 
 	
 	.portfolio-title {
@@ -366,39 +359,34 @@ main {
 		letter-spacing: 3px;
 		text-align: center;
 	}
-	
-	
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
 	
 	.chloe-smart {
 		top: 20%;
-		  font-size: 60px;
-		  letter-spacing: 3px;
-		  font-family: lust-stencil,serif;
-		  font-weight: 700;
+		font-size: 60px;
+		letter-spacing: 3px;
+		font-family: lust-stencil,serif;
+		font-weight: 700;
 	  }
 	  
   	.software-developer {
   		font-family: 'Roboto Flex', sans-serif;
   		letter-spacing: 8px;
-  		font-size: 25px;
-	  	
+  		font-size: 25px;	
   	}
 	
 	.project-1-title {
 		position: absolute;
 		top: 45px;
 		left: 70px;
-	
 	}
 	
 	.project-2-title {
 		position: absolute;
 		top: 45px;
 		left: 70px;
-	
 	}
 	
 	.project-3-title {
