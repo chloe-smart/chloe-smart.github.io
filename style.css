@@ -2,10 +2,9 @@
 	box-sizing: border-box;
 }
 
-main {
+body {
 	width: 100%;
 	max-width: 5000px;
-	box-sizing: border-box; 
 	margin: 20x auto; 
 }
 
@@ -21,6 +20,35 @@ main {
 	font-size: 20px;
 	letter-spacing: 3px;
 	
+}
+
+.portfolio {
+	text-decoration: none;
+	color: #dac7b2;
+}
+
+.about {
+	text-decoration: none;
+	color: #dac7b2;
+}
+
+.contact {
+	text-decoration: none;
+	color: #dac7b2;
+}
+
+.home-body {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.spots {
+	display: flex;
+	width: 100%;
+	object-fit: cover;
+	background-color: #dac7b2;
 }
 
 .chloe-smart {
@@ -52,16 +80,10 @@ main {
   	text-overflow: clip;
 }
 
-.about {
-	text-decoration: none;
-	color: #dac7b2;
-}
-
 .about-me {
 	font-family: 'Roboto Flex', sans-serif;
 	font-size: 20px;
 	letter-spacing: 3px;
-	
 }
 
 .about-me-title {
@@ -69,25 +91,10 @@ main {
 	font-size: 50px;
 	font-family: lust-stencil,serif;
 	letter-spacing: 5px;
-}
-.portfolio {
-	text-decoration: none;
-	color: #dac7b2;
+	padding-top: 5px;
 }
 
-.contact {
-	text-decoration: none;
-	color: #dac7b2;
-}
-
-.home-body {
-	display: flex;
-	width: 100%;
-	justify-content: center;
-	min-height: 100vh;
-}
-
-.text {
+.about-text {
 	padding-top: 15px;
 }
 
@@ -101,7 +108,7 @@ main {
 	line-height: 40px;
 	padding-left: 50px;
 	padding-bottom: 30px;
-	padding-right: 40px;
+	padding-right: 50px;
 }
 
 .me {
@@ -109,13 +116,12 @@ main {
 	justify-content: flex-end;
 	width: 400px;
 	height: 400px;
-	padding-top: 50px;
-	padding-bottom: 25px;
+	padding-top: 40px;
+	padding-bottom: 30px;
 }
 
 .portfolio-title {
 	padding-left: 45px;
-	padding-bottom: 10px;
 	font-family: lust-stencil,serif;
 	font-weight: 700;
 	font-size: 50px;
@@ -184,7 +190,6 @@ main {
 .project-1-title {
 	padding: 30px;
 	font-size: 30px;
-	padding-left: 30px;
 	font-weight: 300;
 	position: absolute;
 	top: 45px;
@@ -194,7 +199,6 @@ main {
 .project-2-title {
 	padding: 30px;
 	font-size: 30px;
-	padding-left: 30px;
 	font-weight: 300;
 	position: absolute;
 	top: 45px;
@@ -204,7 +208,6 @@ main {
 .project-3-title {
 	padding: 30px;
 	font-size: 30px;
-	padding-left: 30px;
 	font-weight: 300;
 	position: absolute;
 	top: 45px;
@@ -213,9 +216,8 @@ main {
 
 .project-description {
 	font-size: 20px;
-	max-width: 900px;
+	max-width: 1000px;
 }
-
 
 .contact-bar {
 	display: flex;
@@ -241,86 +243,11 @@ main {
 	object-fit: cover;
 }
 
-.spots {
-	display: flex;
-	width: 100%;
-	object-fit: cover;
-	background-color: #dac7b2;
-}
-
-
 @media screen and (max-width: 1140px) {
 	
 	.navbar { 
 		justify-content: space-between;
 		padding-left: 15px;
-	}
-	
-	
-	.me {
-		display: none;
-	}
-	
-	.contact-heading {
-		display: none;
-	}
-	
-	.chloe-smart {
-		position: absolute;
-		top: 20%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
-	
-	.about-me-section {
-		justify-content: space-between;
-		gap: 10px;	
-	}
-	
-	.project-1 {
-		flex-direction: column;
-	}
-	
-	.project-2 {
-		flex-direction: column;
-	}
-	
-	.project-3  {
-		flex-direction: column;
-	}
-	
-	.project-description {
-		padding-left: 50px;
-		padding-right: 50px;
-		text-align: center;
-	}
-	
-	.logo {
-		padding-left: 0px;
-		padding-right: 0px;
-		width: 100%;
-	}
-	
-	.contact {
-		justify-content: space-between;
-	}
-	
-	.project-1-title {
-		position: absolute;
-		top: 45px;
-		left: 270px;
-	}
-	
-	.project-2-title {
-		position: absolute;
-		top: 45px;
-		left: 270px;
-	}
-	
-	.project-3-title {
-		position: absolute;
-		top: 45px;
-		left: 270px;
 	}
 	
 	.chloe-smart {
@@ -350,6 +277,50 @@ main {
 	  	text-overflow: clip;	
 	} 
 	
+	.about-me-section {
+		justify-content: space-between;
+		gap: 10px;	
+		text-align: center;
+	}
+	
+	.me {
+		display: none;
+	}
+	
+	.project-1 {
+		flex-direction: column;
+	}
+	
+	.project-2 {
+		flex-direction: column;
+	}
+	
+	.project-3  {
+		flex-direction: column;
+	}
+	
+	.project-description {
+		padding-left: 50px;
+		padding-right: 50px;
+		text-align: center;
+	}
+	
+	.project-1-title {
+		position: static;
+		text-align: center;
+	}
+	
+	.project-2-title {
+		position: static;
+		text-align: center;
+	
+	}
+	
+	.project-3-title {
+		position: static;
+		text-align: center;
+	}
+	
 	.portfolio-title {
 		padding-left: 0px;
 		padding-bottom: 10px;
@@ -359,6 +330,21 @@ main {
 		letter-spacing: 3px;
 		text-align: center;
 	}
+	
+	.logo {
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 100%;
+	}
+	
+	.contact {
+		justify-content: space-between;
+	}
+	
+	.contact-heading {
+		display: none;
+	}
+	
 }
 
 @media screen and (max-width: 500px) {
@@ -376,21 +362,5 @@ main {
   		letter-spacing: 8px;
   		font-size: 25px;	
   	}
+}
 	
-	.project-1-title {
-		position: absolute;
-		top: 45px;
-		left: 70px;
-	}
-	
-	.project-2-title {
-		position: absolute;
-		top: 45px;
-		left: 70px;
-	}
-	
-	.project-3-title {
-		position: absolute;
-		top: 45px;
-		left: 70px;
-	}
