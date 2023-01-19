@@ -318,3 +318,35 @@ body {
   	}
 }
 	
+@media screen and (max-width: 380px) {
+	
+	.contact-link {
+		font-size: 15px;
+	}
+	
+	.logo {
+		width: 100px;
+		height: 100px;
+	}
+
+	.project-box-color {
+		width: 280px;
+		height: 180px;
+	
+	.chloe-smart {
+		top: 20%;
+		font-size: 50px;
+		letter-spacing: 3px;
+		font-family: lust-stencil,serif;
+		font-weight: 700;
+	  }
+	  
+  	.software-developer {
+  		font-family: 'Roboto Flex', sans-serif;
+  		letter-spacing: 0px;
+  		font-size: 1px;	
+  	}
+		
+}
+
+	
