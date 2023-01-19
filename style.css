@@ -18,21 +18,10 @@ body {
 	background-color: #9a7b5c;
 	font-family: 'Roboto Flex', sans-serif;
 	font-size: 20px;
-	letter-spacing: 3px;
-	
+	letter-spacing: 3px;	
 }
 
-.portfolio {
-	text-decoration: none;
-	color: #dac7b2;
-}
-
-.about {
-	text-decoration: none;
-	color: #dac7b2;
-}
-
-.contact {
+.contact-link {
 	text-decoration: none;
 	color: #dac7b2;
 }
@@ -141,21 +130,6 @@ body {
 	letter-spacing: 3px;
 }
 
-.project-1-box-color {
-	width: 350px;
-	height: 230px;
-}
-
-.project-2-box-color {
-	width: 350px;
-	height: 230px;
-}
-
-.project-3-box-color {
-	width: 350px;
-	height: 230px;
-}
-
 .project-1 {
 	display: flex;
 	flex-direction: row;
@@ -187,31 +161,18 @@ body {
 	position: relative;
 }
 
-.project-1-title {
-	padding: 30px;
-	font-size: 30px;
-	font-weight: 300;
-	position: absolute;
-	top: 45px;
-	left: 70px;
+.project-box-color {
+	width: 350px;
+	height: 230px;
 }
 
-.project-2-title {
+.project-title {
 	padding: 30px;
 	font-size: 30px;
 	font-weight: 300;
 	position: absolute;
 	top: 45px;
-	left: 70px;	
-}
-
-.project-3-title {
-	padding: 30px;
-	font-size: 30px;
-	font-weight: 300;
-	position: absolute;
-	top: 45px;
-	left: 70px;
+	left: 68px;
 }
 
 .project-description {
@@ -289,14 +250,17 @@ body {
 	
 	.project-1 {
 		flex-direction: column;
+		gap: 10px;
 	}
 	
 	.project-2 {
 		flex-direction: column;
+		gap: 10px;
 	}
 	
 	.project-3  {
 		flex-direction: column;
+		gap: 10px;
 	}
 	
 	.project-description {
@@ -305,20 +269,10 @@ body {
 		text-align: center;
 	}
 	
-	.project-1-title {
+	.project-title {
 		position: static;
 		text-align: center;
-	}
-	
-	.project-2-title {
-		position: static;
-		text-align: center;
-	
-	}
-	
-	.project-3-title {
-		position: static;
-		text-align: center;
+		padding: 10px;
 	}
 	
 	.portfolio-title {
@@ -337,8 +291,8 @@ body {
 		width: 100%;
 	}
 	
-	.contact {
-		justify-content: space-between;
+	.contact-bar {
+		justify-content: space-evenly;
 	}
 	
 	.contact-heading {
