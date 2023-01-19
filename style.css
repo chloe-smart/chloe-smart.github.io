@@ -210,7 +210,7 @@ body {
 	.chloe-smart {
 		position: absolute;
 		top: 20%;
-		font-size: 65px;
+		font-size: 80px;
 		letter-spacing: 3px;
 		white-space: normal;
 		overflow: visible;
@@ -219,9 +219,9 @@ body {
 
 	.software-developer {
 	 	position: absolute;
-	  	top: 38%;
-		letter-spacing: 18px;
-		font-size: 20px;
+	  	top: 40%;
+		letter-spacing: 12px;
+		font-size: 30px;
 	 	white-space: normal;
 	  	overflow: visible;
 	  	text-overflow: clip;	
@@ -285,6 +285,7 @@ body {
 	}
 	
 }
+
 
 @media screen and (max-width: 500px) {
 	
