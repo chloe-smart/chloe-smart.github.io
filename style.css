@@ -1,0 +1,382 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 20x auto; 
+}
+
+.navbar {
+	display: flex;
+	justify-content: flex-start;
+	gap: 50px;
+	padding: 15px;
+	padding-left: 45px;
+	background-color: #9a7b5c;
+	font-family: 'Roboto Flex', sans-serif;
+	font-size: 20px;
+	letter-spacing: 3px;	
+}
+
+.nav-link {
+	text-decoration: none;
+	color: black;
+}
+
+.home-body {
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.spots {
+	display: flex;
+	width: 100%;
+	object-fit: cover;
+	background-color: #dac7b2;
+}
+
+h1 {
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 120px;
+	letter-spacing: 30px;
+	font-family: lust-stencil,serif;
+	font-weight: 700;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: clip;
+}
+
+.software-developer {
+ 	position: absolute;
+  	top: 32%;
+  	left: 50.5%;
+  	transform: translate(-50%, -50%);
+	font-family: 'Roboto Flex', sans-serif;
+	letter-spacing: 48px;
+	font-size: 40px;
+  	text-align: center;
+  	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: clip;
+}
+
+.about-me {
+	font-family: 'Roboto Flex', sans-serif;
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+
+.about-me-title {
+	font-weight: 700;
+	font-size: 50px;
+	font-family: lust-stencil,serif;
+	letter-spacing: 5px;
+	padding-top: 5px;
+}
+
+.about-text {
+	padding-top: 15px;
+}
+
+.about-me-section {
+	display: flex;
+	background-color: #9a7b5c;
+	justify-content: center;
+	padding-top: 20px;
+	gap: 20px;
+	line-height: 40px;
+	padding-left: 50px;
+	padding-bottom: 30px;
+	padding-right: 50px;
+}
+
+.me {
+	display: flex;
+	justify-content: flex-end;
+	width: 400px;
+	height: 400px;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	object-fit: cover;
+}
+
+.portfolio-title {
+	font-family: lust-stencil,serif;
+	font-weight: 700;
+	font-size: 50px;
+	letter-spacing: 3px;
+	padding-left: 30px;
+}
+
+.project-section {
+	background-color: #cf9697;
+	flex-direction: column;
+	padding-left: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-family: 'Roboto Flex', sans-serif;
+	line-height: 40px;
+	letter-spacing: 3px;
+	gap: 100px;
+}
+
+.project {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding: 10px;
+	gap: 50px;
+	align-items: center;
+	padding-left: 30px;
+}
+
+
+.title-and-project-image-1 {
+	width: 300px;
+	height: 200px;
+	background-color: #899e95;
+	padding-top: 50px;
+	padding-left: 20px;
+	padding-left: 40px;
+}
+
+.title-and-project-image-2 {
+	width: 300px;
+	height: 200px;
+	background-color: #dac7b2;
+	padding-top: 50px;
+	padding-left: 40px;
+}
+
+.title-and-project-image-3 {
+	width: 300px;
+	height: 200px;
+	background-color: #9a7b5c;
+	padding-top: 50px;
+	padding-left: 40px;
+}
+
+.project-title {
+	padding-left: 30px;
+	font-size: 30px;
+	font-weight: 300;
+	padding-bottom: 100px;
+}
+
+.project-description {
+	font-size: 20px;
+	max-width: 1000px;
+}
+
+.contact-bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding: 10px;
+	background-color: #dac7b2;
+	gap: 20px;
+	align-items: center;
+}
+
+.contact-heading {
+	font-family: lust-stencil,serif;
+	font-size: 40px;
+	padding-left: 45px;
+	font-weight: 500;
+	letter-spacing: 3px;
+}
+
+.logo {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+}
+
+@media screen and (max-width: 1400px){
+	
+	.project {
+		flex-direction: column;
+		gap: 10px;
+	}
+	
+	.project-description {
+		padding-left: 50px;
+		padding-right: 50px;
+		text-align: center;
+	}
+	
+	
+	.portfolio-title {
+		padding-left: 0px;
+		text-align: center;
+	}
+	
+}
+
+@media screen and (max-width: 1140px) {
+	
+	.navbar { 
+		justify-content: space-between;
+		padding-left: 15px;
+	}
+	
+	h1 {
+		position: absolute;
+		top: 20%;
+		font-size: 80px;
+		letter-spacing: 3px;
+		white-space: normal;
+		overflow: visible;
+		text-overflow: clip;  
+	}
+
+	.software-developer {
+	 	position: absolute;
+	  	top: 40%;
+		letter-spacing: 12px;
+		font-size: 30px;
+	 	white-space: normal;
+	  	overflow: visible;
+	  	text-overflow: clip;	
+	} 
+	
+	.about-me-section {
+		text-align: center;
+	}
+	
+	.me {
+		display: none;
+	}
+	
+	
+	.project-description {
+		padding-left: 50px;
+		padding-right: 50px;
+		text-align: center;
+	}
+	
+	
+	.logo {
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 100%;
+	}
+	
+	.contact-bar {
+		justify-content: space-evenly;
+	}
+	
+	.contact-heading {
+		display: none;
+	}
+	
+}
+
+
+@media screen and (max-width: 500px) {
+	
+	h1 {
+		top: 20%;
+		font-size: 60px;
+		letter-spacing: 3px;
+	  }
+	  
+  	.software-developer {
+  		letter-spacing: 8px;
+  		font-size: 25px;	
+  	}
+}
+	
+@media screen and (max-width: 380px) {
+	
+	.nav-link {
+		font-size: 15px;
+	}
+	
+	.logo {
+		width: 100px;
+		height: 100px;
+	}
+
+	h1 {
+		top: 20%;
+		font-size: 50px;
+		letter-spacing: 3px;
+		font-weight: 700;
+	  }	
+	  
+	.title-and-project-image-1 {
+		width: 300px;
+		padding-left: 25px;
+		
+	}
+	
+	.title-and-project-image-2 {
+		width: 300px;
+		padding-left: 25px;
+		
+	}
+	
+	.title-and-project-image-3 {
+		width: 300px;
+		padding-left: 20px;
+		
+	}
+}
+
+@media screen and (max-width: 350px) {
+	
+  	.software-developer {
+  		letter-spacing: 4px;
+  		font-size: 20px;	
+  	}
+	
+	.contact-link {
+		font-size: 15px;
+	}
+	
+	.logo {
+		width: 80px;
+		height: 80px;
+	}  
+	
+	.navbar { 
+		gap: 5px;
+	}
+	
+	.portfolio-title {
+		font-size: 35px;
+	}
+	
+	.about-me-title {
+		font-size: 35px;
+	}
+	
+	.title-and-project-image-1 {
+		width: 250px;
+		height: 150px;
+		padding-top: 30px;
+		padding-left: 10px;
+	}
+
+	.title-and-project-image-2 {
+		width: 250px;
+		height: 150px;
+		padding-top: 30px;
+		padding-left: 10px;
+	}
+
+	.title-and-project-image-3 {
+		width: 250px;
+		height: 150px;
+		padding-top: 30px;
+		padding-left: 10px;
+	}
+}
+
+	
