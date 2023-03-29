@@ -128,13 +128,14 @@ body {
 }
 
 .project-1 {
+	border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.project-1 .content {
 	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	padding: 10px;
-	gap: 50px;
-	align-items: center;
-	position: relative;
+    justify-content: space-between;
 }
 
 .project-2 {
