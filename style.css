@@ -8,11 +8,6 @@ body {
 	margin: 80x auto; 
 }
 
-main {
-	margin-left: 40px;
-	margin-right: 40px;
-}
-
 .navbar {
 	display: flex;
 	justify-content: flex-start;
