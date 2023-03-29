@@ -20,9 +20,9 @@ body {
 	letter-spacing: 3px;	
 }
 
-.contact-link {
+.navbar-link {
 	text-decoration: none;
-	color: #dac7b2;
+	color: #000000;
 }
 
 .home-body {
@@ -87,7 +87,7 @@ body {
 
 .about-me-section {
 	display: flex;
-	background-color: #9a7b5c;
+	background-color: #cf9697;
 	justify-content: center;
 	padding: 20px;
 	gap: 20px;
@@ -116,7 +116,7 @@ body {
 
 .project-section {
 	display: flex;
-	background-color: #cf9697;
+	background-color: #dac7b2;
 	flex-direction: column;
 	padding-left: 10px;
 	padding-top: 30px;
@@ -181,7 +181,7 @@ body {
 	flex-direction: row;
 	justify-content: flex-start;
 	padding: 10px;
-	background-color: #dac7b2;
+	background-color: #8d9d95;
 	gap: 20px;
 	align-items: center;
 }
