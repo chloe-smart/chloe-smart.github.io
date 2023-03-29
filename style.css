@@ -115,11 +115,17 @@ body {
 	letter-spacing: 3px;
 }
 
+.portfolio-description {
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
 .project-section {
 	display: flex;
 	background-color: #dac7b2;
 	flex-direction: column;
-	padding-left: 10px;
+	padding-left: 45px;
+	padding-right: 45px;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	font-family: 'Roboto Flex', sans-serif;
@@ -134,25 +140,17 @@ body {
     justify-content: space-between;
 }
 
-.project-2 {
+.project-2 .content {
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
-	padding: 10px;
-	gap: 50px;
-	align-items: center;
-	position: relative;
+    justify-content: space-between;
 }
 
 
-.project-3 {
+.project-3 .content {
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
-	padding: 10px;
-	gap: 50px;
-	align-items: center;
-	position: relative;
+    justify-content: space-between;
 }
 
 .project-box-color {
@@ -160,14 +158,9 @@ body {
 	height: 230px;
 }
 
-/* .project-title {
+.project-title {
 	padding: 30px;
-	font-size: 30px;
-	font-weight: 300;
-	position: absolute;
-	top: 45px;
-	left: 68px;
-} */
+}
 
 .project-description {
 	font-size: 20px;
