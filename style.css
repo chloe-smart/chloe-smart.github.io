@@ -108,16 +108,10 @@ body {
 }
 
 .portfolio-title {
-	padding-left: 45px;
 	font-family: lust-stencil,serif;
 	font-weight: 700;
 	font-size: 50px;
 	letter-spacing: 3px;
-}
-
-.portfolio-description {
-	padding-left: 45px;
-	padding-right: 45px;
 }
 
 .project-section {
@@ -156,10 +150,7 @@ body {
 .project-box-color {
 	width: 350px;
 	height: 230px;
-}
-
-.project-title {
-	padding: 30px;
+	margin: 0;
 }
 
 .project-description {
