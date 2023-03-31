@@ -164,6 +164,11 @@ body {
 .project-description {
 	font-size: 20px;
 	max-width: 1000px;
+	margin: 0;
+}
+
+.project-link {
+	margin: 0;
 }
 
 .contact-bar {
