@@ -135,6 +135,7 @@ body {
 	flex-direction: row;
     justify-content: space-between;
 	gap: 50px;
+	align-items: flex-start;
 }
 
 .project-2 .content {
@@ -142,6 +143,7 @@ body {
 	flex-direction: row;
     justify-content: space-between;
 	gap: 50px;
+	align-items: flex-start;
 }
 
 
@@ -150,6 +152,7 @@ body {
 	flex-direction: row;
     justify-content: space-between;
 	gap: 50px;
+	align-items: flex-start;
 }
 
 .project-box-color {
