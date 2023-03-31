@@ -158,7 +158,6 @@ body {
 .project-box-color {
 	width: 200px;
 	height: 200px;
-	margin-top: 50px;
 }
 
 .project-description {
@@ -167,7 +166,7 @@ body {
 	margin: 0;
 }
 
-.project-link {
+.project-links {
 	margin: 0;
 }
 
