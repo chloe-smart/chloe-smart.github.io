@@ -132,12 +132,14 @@ body {
 	display: flex;
 	flex-direction: row;
     justify-content: space-between;
+	gap: 20px;
 }
 
 .project-2 .content {
 	display: flex;
 	flex-direction: row;
     justify-content: space-between;
+	gap: 20px;
 }
 
 
@@ -145,6 +147,7 @@ body {
 	display: flex;
 	flex-direction: row;
     justify-content: space-between;
+	gap: 20px;
 }
 
 .project-box-color {
