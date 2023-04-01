@@ -147,6 +147,7 @@ body {
 	gap: 50px;
 	align-items: flex-start;
 	padding-bottom: 50px;
+	padding-top: 50px;
 }
 
 .project-2 .content {
@@ -156,6 +157,7 @@ body {
 	gap: 50px;
 	align-items: flex-start;
 	padding-bottom: 50px;
+	padding-top: 50px;
 }
 
 
@@ -166,6 +168,7 @@ body {
 	gap: 50px;
 	align-items: flex-start;
 	padding-bottom: 50px;
+	padding-top: 50px;
 }
 
 .project-box-color {
@@ -229,7 +232,7 @@ body {
 	 	position: absolute;
 	  	top: 40%;
 		letter-spacing: 12px;
-		font-size: 30px;
+		font-size: 50px;
 	 	white-space: normal;
 	  	overflow: visible;
 	  	text-overflow: clip;	
@@ -248,10 +251,7 @@ body {
 	.project-image {
 		display: flex;
 		justify-content: center;
-	}
-
-	.project-box-color {
-		justify-content: center;
+		text-align: center;
 	}
 
 	.project-links {
@@ -301,7 +301,7 @@ body {
 	.project-title {
 		position: static;
 		text-align: center;
-		padding: 10px;
+		padding: 0;
 	}
 	
 	.portfolio-title {
