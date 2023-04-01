@@ -245,8 +245,9 @@ body {
 		display: none;
 	}
 
-	.project-box-color {
-		text-align: center;
+	.project-image {
+		display: flex;
+		justify-content: center;
 	}
 
 	.project-links {
