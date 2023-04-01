@@ -240,19 +240,16 @@ body {
 		display: none;
 	}
 	
-	.project-1 {
+	.project-1 .content {
 		flex-direction: column;
-		gap: 10px;
 	}
 	
-	.project-2 {
+	.project-2 .content {
 		flex-direction: column;
-		gap: 10px;
 	}
-	
-	.project-3  {
+
+	.project-3 .content {
 		flex-direction: column;
-		gap: 10px;
 	}
 	
 	.project-description {
