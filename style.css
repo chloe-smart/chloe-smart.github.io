@@ -239,6 +239,10 @@ body {
 	.me {
 		display: none;
 	}
+
+	.portfolio-description {
+		text-align: center;
+	}
 	
 	.project-1 .content {
 		flex-direction: column;
