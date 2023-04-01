@@ -252,7 +252,7 @@ body {
 	.project-links {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-between;
+		justify-content: flex-end;
 		gap: 50px;
 	}
 
