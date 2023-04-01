@@ -253,6 +253,7 @@ body {
 		flex-direction: row;
 		justify-content: space-evenly;
 		gap: 100px;
+		width: 100%;
 	}
 
 	.portfolio-description {
@@ -267,19 +268,20 @@ body {
 	.project-1 .content {
 		flex-direction: column;
 		justify-content: center;
-		align-items: start;
+		width: 100%;
 	}
 	
 	.project-2 .content {
 		flex-direction: column;
 		justify-content: center;
-		align-items: start;
+		width: 100%;
 	}
 
 	.project-3 .content {
 		flex-direction: column;		
 		justify-content: center;
 		align-items: start;
+		width: 100%;
 	}
 	
 	.project-description {
