@@ -35,7 +35,7 @@ body {
 	display: flex;
 	width: 100%;
 	object-fit: cover;
-	background-color: #e9daca;
+	background-color: #dac7b2;
 }
 
 .chloe-smart {
@@ -251,7 +251,6 @@ body {
 	.project-image {
 		display: flex;
 		justify-content: center;
-		text-align: center;
 	}
 
 	.project-links {
@@ -281,19 +280,16 @@ body {
 	
 	.project-1 .content {
 		flex-direction: column;
-		flex-wrap: wrap;
 		justify-content: center;
 	}
 	
 	.project-2 .content {
 		flex-direction: column;
-		flex-wrap: wrap;
 		justify-content: center;
 	}
 
 	.project-3 .content {
-		flex-direction: column;
-		flex-wrap: wrap;
+		flex-direction: column;		
 		justify-content: center;
 	}
 	
