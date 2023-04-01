@@ -273,6 +273,11 @@ body {
 	.portfolio-description {
 		text-align: center;
 	}
+
+	.project-box-color {
+		display: flex;
+		justify-content: center;
+	}
 	
 	.project-1 .content {
 		flex-direction: column;
