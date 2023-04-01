@@ -250,6 +250,10 @@ body {
 		justify-content: center;
 	}
 
+	.project-box-color {
+		justify-content: center;
+	}
+
 	.project-links {
 		display: flex;
 		flex-direction: row;
