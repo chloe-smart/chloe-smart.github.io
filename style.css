@@ -240,9 +240,14 @@ body {
 		display: none;
 	}
 
+	.project-box-color {
+		text-align: center;
+	}
+
 	.project-links {
 		display: flex;
 		flex-direction: row;
+		justify-content: space-between;
 	}
 
 	.portfolio-description {
