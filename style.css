@@ -248,25 +248,11 @@ body {
 		display: none;
 	}
 
-	.project-image {
-		display: flex;
-		justify-content: center;
-	}
-
 	.project-links {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
-		gap: 50px;
-	}
-
-	.project-link {
-		justify-content: space-evenly;
-	}
-
-	.project-link-live {
-		display: flex;
-		justify-content: flex-end;
+		gap: 100px;
 	}
 
 	.portfolio-description {
@@ -281,16 +267,19 @@ body {
 	.project-1 .content {
 		flex-direction: column;
 		justify-content: center;
+		align-items: start;
 	}
 	
 	.project-2 .content {
 		flex-direction: column;
 		justify-content: center;
+		align-items: start;
 	}
 
 	.project-3 .content {
 		flex-direction: column;		
 		justify-content: center;
+		align-items: start;
 	}
 	
 	.project-description {
@@ -300,14 +289,11 @@ body {
 	}
 	
 	.project-title {
-		position: static;
 		text-align: center;
 		padding: 0;
 	}
 	
 	.portfolio-title {
-		padding-left: 0px;
-		padding-bottom: 10px;
 		text-align: center;
 	}
 	
