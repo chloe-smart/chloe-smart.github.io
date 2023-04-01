@@ -246,14 +246,17 @@ body {
 	
 	.project-1 .content {
 		flex-direction: column;
+		flex-wrap: wrap;
 	}
 	
 	.project-2 .content {
 		flex-direction: column;
+		flex-wrap: wrap;
 	}
 
 	.project-3 .content {
 		flex-direction: column;
+		flex-wrap: wrap;
 	}
 	
 	.project-description {
