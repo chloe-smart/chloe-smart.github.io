@@ -240,6 +240,11 @@ body {
 		display: none;
 	}
 
+	.project-links {
+		display: flex;
+		flex-direction: row;
+	}
+
 	.portfolio-description {
 		text-align: center;
 	}
