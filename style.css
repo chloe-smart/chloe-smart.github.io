@@ -265,29 +265,20 @@ body {
 	.portfolio-description {
 		text-align: center;
 	}
-
-	.project-box-color {
-		display: flex;
-		justify-content: center;
-	}
 	
 	.project-1 .content {
 		flex-direction: column;
 		justify-content: center;
-		width: 100%;
 	}
 	
 	.project-2 .content {
 		flex-direction: column;
 		justify-content: center;
-		width: 100%;
 	}
 
 	.project-3 .content {
 		flex-direction: column;		
 		justify-content: center;
-		align-items: start;
-		width: 100%;
 	}
 	
 	.project-description {
