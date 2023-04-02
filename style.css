@@ -171,6 +171,16 @@ body {
 	padding-top: 50px;
 }
 
+.project-4 .content {
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+	gap: 50px;
+	align-items: flex-start;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
 .project-box-color {
 	width: 200px;
 	height: 200px;
@@ -277,6 +287,11 @@ body {
 	}
 
 	.project-3 .content {
+		flex-direction: column;		
+		justify-content: center;
+	}
+
+	.project-4 .content {
 		flex-direction: column;		
 		justify-content: center;
 	}
