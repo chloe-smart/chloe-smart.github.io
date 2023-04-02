@@ -221,8 +221,8 @@ body {
 	.chloe-smart {
 		position: absolute;
 		top: 20%;
-		font-size: 80px;
-		letter-spacing: 3px;
+		font-size: 100px;
+		letter-spacing: 6px;
 		white-space: normal;
 		overflow: visible;
 		text-overflow: clip;  
@@ -230,8 +230,8 @@ body {
 
 	.software-developer {
 	 	position: absolute;
-	  	top: 40%;
-		letter-spacing: 12px;
+	  	top: 50%;
+		letter-spacing: 18px;
 		font-size: 50px;
 	 	white-space: normal;
 	  	overflow: visible;
