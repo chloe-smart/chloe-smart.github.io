@@ -303,11 +303,8 @@ body {
 	}
 
 	.project-link {
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		gap: 50px;
-		align-items: center;
+		text-align: center;
+		width: 300px;
 	}
 	
 	.logo {
