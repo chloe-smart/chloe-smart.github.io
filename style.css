@@ -150,6 +150,10 @@ body {
 	padding-bottom: 50px;
 }
 
+.project-1 .content span {
+	font-weight: 400;
+}
+
 .project-2 .content {
 	display: flex;
 	flex-direction: row;
@@ -157,6 +161,10 @@ body {
 	gap: 50px;
 	align-items: flex-start;
 	padding-bottom: 50px;
+}
+
+.project-2 .content span {
+	font-weight: 400;
 }
 
 
@@ -167,6 +175,10 @@ body {
 	gap: 50px;
 	align-items: flex-start;
 	padding-bottom: 50px;
+}
+
+.project-3 .content span {
+	font-weight: 400;
 }
 
 .project-4 .content {
