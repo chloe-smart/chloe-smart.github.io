@@ -303,6 +303,7 @@ body {
 	}
 
 	.project-link {
+		display: inline-block;
 		text-align: center;
 		width: 300px;
 	}
