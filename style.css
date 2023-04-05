@@ -125,8 +125,8 @@ body {
 .project-link {
 	text-decoration: none;
 	color: #000000;
-	padding-right: 70px;
-	font-style: underline;
+	padding-right: 82px;
+	text-decoration: underline;
 }
 
 .project-section {
@@ -169,6 +169,7 @@ body {
 	align-items: flex-start;
 	padding-bottom: 20px;
 }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
 
 .bold {
 	font-weight: 900;
