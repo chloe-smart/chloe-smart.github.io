@@ -150,8 +150,8 @@ body {
 	padding-bottom: 50px;
 }
 
-.project-1 .content span {
-	font-weight: 400;
+.bold {
+	font-weight: 500;
 }
 
 .project-2 .content {
@@ -163,8 +163,8 @@ body {
 	padding-bottom: 50px;
 }
 
-.project-2 .content span {
-	font-weight: 400;
+.bold {
+	font-weight: 500;
 }
 
 
@@ -177,8 +177,8 @@ body {
 	padding-bottom: 50px;
 }
 
-.project-3 .content span {
-	font-weight: 400;
+.bold {
+	font-weight: 800;
 }
 
 .project-4 .content {
