@@ -303,7 +303,9 @@ body {
 	}
 
 	.project-link {
-		text-align: center;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
 	}
 	
 	.logo {
