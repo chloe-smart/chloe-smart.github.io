@@ -59,7 +59,7 @@ body {
   	left: 50.5%;
   	transform: translate(-50%, -50%);
 	font-family: 'Roboto Flex', sans-serif;
-	letter-spacing: 48px;
+	letter-spacing: 43px;
 	font-size: 40px;
   	text-align: center;
   	white-space: nowrap;
@@ -117,16 +117,20 @@ body {
 }
 
 .project-title {
-	font-weight: 500;
-	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-family: 'Roboto Flex', sans-serif;
 	font-size: 25px;
 }
 
 .project-link {
 	text-decoration: none;
 	color: #000000;
-	padding-right: 82px;
+	padding-left: 30px;
 	text-decoration: underline;
+}
+
+.project-link-live {
+	padding-left: 0;
 }
 
 .project-section {
@@ -169,11 +173,6 @@ body {
 	align-items: flex-start;
 	padding-bottom: 20px;
 }
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
-
-.bold {
-	font-weight: 900;
-}
 
 .project-4 .content {
 	display: flex;
@@ -181,9 +180,13 @@ body {
     justify-content: space-between;
 	gap: 50px;
 	align-items: flex-start;
-	padding-bottom: 50px;
-	padding-top: 50px;
+	padding-bottom: 20px;
 }
+
+.bold {
+	font-weight: 700;
+}
+
 
 .project-box-color {
 	width: 200px;
@@ -240,11 +243,12 @@ body {
 	.software-developer {
 	 	position: absolute;
 	  	top: 50%;
-		letter-spacing: 18px;
-		font-size: 50px;
+		letter-spacing: 30px;
+		font-size: 35px;
 	 	white-space: normal;
 	  	overflow: visible;
-	  	text-overflow: clip;	
+	  	text-overflow: clip;
+		line-height: 50px;	
 	} 
 	
 	.about-me-section {
@@ -288,14 +292,15 @@ body {
 	}
 	
 	.project-description {
-		padding-left: 50px;
-		padding-right: 50px;
+		padding-left: 10px;
+		padding-right: 10px;
 		text-align: center;
 	}
 	
 	.project-title {
 		text-align: center;
 		padding: 0;
+		font-style: normal;
 	}
 	
 	.portfolio-title {
@@ -325,18 +330,18 @@ body {
 	
 }
 
-
 @media screen and (max-width: 500px) {
 	
 	.chloe-smart {
 		top: 20%;
-		font-size: 60px;
+		font-size: 80px;
 		letter-spacing: 3px;
 	  }
 	  
   	.software-developer {
-  		letter-spacing: 8px;
-  		font-size: 25px;	
+  		letter-spacing: 13px;
+  		font-size: 35px;	
+		top: 45%;
   	}
 }
 	
@@ -358,7 +363,7 @@ body {
 	
 	.chloe-smart {
 		top: 20%;
-		font-size: 50px;
+		font-size: 70px;
 		letter-spacing: 3px;
 		font-weight: 700;
 	  }	
