@@ -5,7 +5,7 @@
 body {
 	width: 100%;
 	max-width: 5000px;
-	margin: 80x auto; 
+	margin: 100x auto;
 }
 
 .navbar {
@@ -17,7 +17,7 @@ body {
 	background-color: #9a7b5c;
 	font-family: 'Roboto Flex', sans-serif;
 	font-size: 20px;
-	letter-spacing: 3px;	
+	letter-spacing: 3px;
 }
 
 .navbar-link {
@@ -45,7 +45,7 @@ body {
 	transform: translate(-50%, -50%);
 	font-size: 120px;
 	letter-spacing: 30px;
-	font-family: lust-stencil,serif;
+	font-family: lust-stencil, serif;
 	font-weight: 700;
 	text-align: center;
 	white-space: nowrap;
@@ -54,66 +54,80 @@ body {
 }
 
 .software-developer {
- 	position: absolute;
-  	top: 32%;
-  	left: 50.5%;
-  	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 32%;
+	left: 50.5%;
+	transform: translate(-50%, -50%);
 	font-family: 'Roboto Flex', sans-serif;
 	letter-spacing: 43px;
 	font-size: 40px;
-  	text-align: center;
-  	white-space: nowrap;
-  	overflow: hidden;
-  	text-overflow: clip;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: clip;
 }
 
 .about-me {
 	font-family: 'Roboto Flex', sans-serif;
 	font-size: 20px;
 	letter-spacing: 3px;
+	margin-top: 0;
 }
 
 .about-me-title {
 	font-weight: 700;
 	font-size: 50px;
-	font-family: lust-stencil,serif;
+	font-family: lust-stencil, serif;
 	letter-spacing: 5px;
-	padding-top: 0;
-}
-
-.about-text {
-	padding-top: 0;
+	margin: 0 auto;
+	max-width: 1600px;
+	padding-bottom: 0;
 }
 
 .about-me-section {
-	display: flex;
 	background-color: #cf9697;
-	justify-content: center;
 	padding: 20px;
-	gap: 20px;
-	line-height: 40px;
 	padding-left: 50px;
+	padding-top: 30px;
 	padding-bottom: 30px;
 	padding-right: 50px;
 }
 
-.me {
+.about-content {
 	display: flex;
-	justify-content: flex-end;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	line-height: 40px;
+	gap: 30px;
+	max-width: 1600px;
+	margin: 0 auto;
+	padding-top: 0;
+}
+
+.me {
 	width: 400px;
 	height: 400px;
-	margin-top: 10px;
-	padding-top: 50px;
-	padding-bottom: 30px;
+	object-fit: cover;
+	padding-bottom: 60px;
 }
 
 .portfolio-title {
-	font-family: lust-stencil,serif;
+	font-family: lust-stencil, serif;
 	font-weight: 700;
 	font-size: 50px;
 	letter-spacing: 3px;
 	padding-top: 30px;
 	margin: 0;
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+.portfolio-description {
+	max-width: 1600px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
 }
 
 .project-title {
@@ -123,18 +137,15 @@ body {
 }
 
 .project-link {
-	text-decoration: none;
+	padding-top: 20px;
 	color: #000000;
-	padding-left: 30px;
-	text-decoration: underline;
+	display: block;
 }
 
-.project-link-live {
-	padding-left: 0;
-}
-
-.project-link-github {
-	padding-left: 40px;
+.project-links {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
 }
 
 .project-section {
@@ -144,53 +155,69 @@ body {
 	padding-left: 45px;
 	padding-right: 45px;
 	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 	font-family: 'Roboto Flex', sans-serif;
 	line-height: 40px;
 	letter-spacing: 3px;
 }
 
+.project-1 {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+.project-2 {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+.project-3 {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+.project-4 {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
 .project-1 .content {
 	display: flex;
 	flex-direction: row;
-    justify-content: space-between;
+	/* justify-content: space-between; */
 	gap: 50px;
 	align-items: flex-start;
 	padding-bottom: 20px;
+	margin: 0 auto;
 }
-
 
 .project-2 .content {
 	display: flex;
 	flex-direction: row;
-    justify-content: space-between;
+	justify-content: space-between;
 	gap: 50px;
 	align-items: flex-start;
-	padding-bottom: 20px;
 }
 
 .project-3 .content {
 	display: flex;
 	flex-direction: row;
-    justify-content: space-between;
+	justify-content: space-between;
 	gap: 50px;
 	align-items: flex-start;
-	padding-bottom: 20px;
 }
 
 .project-4 .content {
 	display: flex;
 	flex-direction: row;
-    justify-content: space-between;
+	justify-content: space-between;
 	gap: 50px;
 	align-items: flex-start;
-	padding-bottom: 20px;
 }
 
 .bold {
 	font-weight: 700;
 }
-
 
 .project-box-color {
 	width: 200px;
@@ -199,7 +226,7 @@ body {
 
 .project-description {
 	font-size: 20px;
-	max-width: 1000px;
+	max-width: 1500px;
 	margin: 0;
 }
 
@@ -214,11 +241,12 @@ body {
 }
 
 .contact-heading {
-	font-family: lust-stencil,serif;
+	font-family: lust-stencil, serif;
 	font-size: 40px;
 	padding-left: 45px;
 	font-weight: 500;
 	letter-spacing: 3px;
+	max-width: 1180px;
 }
 
 .logo {
@@ -228,12 +256,12 @@ body {
 }
 
 @media screen and (max-width: 1140px) {
-	
-	.navbar { 
+
+	.navbar {
 		justify-content: space-between;
 		padding-left: 15px;
 	}
-	
+
 	.chloe-smart {
 		position: absolute;
 		top: 20%;
@@ -241,26 +269,26 @@ body {
 		letter-spacing: 6px;
 		white-space: normal;
 		overflow: visible;
-		text-overflow: clip;  
+		text-overflow: clip;
 	}
 
 	.software-developer {
-	 	position: absolute;
-	  	top: 50%;
+		position: absolute;
+		top: 50%;
 		letter-spacing: 30px;
 		font-size: 35px;
-	 	white-space: normal;
-	  	overflow: visible;
-	  	text-overflow: clip;
-		line-height: 50px;	
-	} 
-	
+		white-space: normal;
+		overflow: visible;
+		text-overflow: clip;
+		line-height: 50px;
+	}
+
 	.about-me-section {
 		justify-content: space-between;
-		gap: 10px;	
+		gap: 10px;
 		text-align: center;
 	}
-	
+
 	.me {
 		display: none;
 	}
@@ -274,39 +302,39 @@ body {
 	.portfolio-description {
 		text-align: center;
 	}
-	
+
 	.project-1 .content {
 		flex-direction: column;
 		justify-content: center;
 	}
-	
+
 	.project-2 .content {
 		flex-direction: column;
 		justify-content: center;
 	}
 
 	.project-3 .content {
-		flex-direction: column;		
+		flex-direction: column;
 		justify-content: center;
 	}
 
 	.project-4 .content {
-		flex-direction: column;		
+		flex-direction: column;
 		justify-content: center;
 	}
-	
+
 	.project-description {
 		padding-left: 10px;
 		padding-right: 10px;
 		text-align: center;
 	}
-	
+
 	.project-title {
 		text-align: center;
 		padding: 0;
 		font-style: normal;
 	}
-	
+
 	.portfolio-title {
 		text-align: center;
 	}
@@ -317,44 +345,44 @@ body {
 		width: 100%;
 		padding: 0;
 	}
-	
+
 	.logo {
 		padding-left: 0px;
 		padding-right: 0px;
 		width: 100%;
 	}
-	
+
 	.contact-bar {
 		justify-content: space-evenly;
 	}
-	
+
 	.contact-heading {
 		display: none;
 	}
-	
+
 }
 
 @media screen and (max-width: 500px) {
-	
+
 	.chloe-smart {
 		top: 20%;
 		font-size: 80px;
 		letter-spacing: 3px;
-	  }
-	  
-  	.software-developer {
-  		letter-spacing: 13px;
-  		font-size: 35px;	
+	}
+
+	.software-developer {
+		letter-spacing: 13px;
+		font-size: 35px;
 		top: 45%;
-  	}
+	}
 }
-	
+
 @media screen and (max-width: 380px) {
-	
+
 	.contact-link {
 		font-size: 15px;
 	}
-	
+
 	.logo {
 		width: 100px;
 		height: 100px;
@@ -364,43 +392,41 @@ body {
 		width: 180px;
 		height: 180px;
 	}
-	
+
 	.chloe-smart {
 		top: 20%;
 		font-size: 70px;
 		letter-spacing: 3px;
 		font-weight: 700;
-	  }	
+	}
 }
 
 @media screen and (max-width: 380px) {
-	
-  	.software-developer {
-  		letter-spacing: 4px;
-  		font-size: 20px;	
-  	}
-	
+
+	.software-developer {
+		letter-spacing: 4px;
+		font-size: 20px;
+	}
+
 	.contact-link {
 		font-size: 15px;
 	}
-	
+
 	.logo {
 		width: 80px;
 		height: 80px;
-	}  
-	
-	.navbar { 
+	}
+
+	.navbar {
 		gap: 5px;
 	}
-	
+
 	.portfolio-title {
 		font-size: 35px;
 	}
-	
+
 	.about-me-title {
 		font-size: 35px;
 	}
-	
-}
 
-	
+}
